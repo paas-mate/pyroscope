@@ -11,5 +11,5 @@ RUN wget -q https://dl.pyroscope.io/release/pyroscope-0.37.2-linux-$TARGETARCH.t
 
 ENV PYROSCOPE_HOME=/opt/pyroscope
 
-ENTRYPOINT [ "/opt/pyroscope" ]
+ENTRYPOINT [ "/opt/pyroscope/pyroscope" ]
 CMD ["server"]
